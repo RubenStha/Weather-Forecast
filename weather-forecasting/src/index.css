@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+ul > li{
+    list-style-type: none;
+    line-height: 20px;
+    margin: 5px 0;
+}
+.container{
+    display: flex;
+}
+.search-container{
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url("./img/bg.jfif");
+    color: white;
+}
+.caption{
+    margin: 20px 0;
+        font-size: 45px;
+}
+#search{
+    height: 45px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    /* border: none; */
+    padding: 10px;
+    width: 500px;
+    margin-left: 60px;
+}
+#search-btn{
+    height: 45px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    border-left: none;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.city-details
+{
+   font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 60px;
+    cursor: pointer;
+    background: #8d8e99b8;
+    text-align: center;
+    width: 500px;
+    padding: 5px 0;
+    border-radius: 10px;
+}
+.city-details:hover{
+    background-color: black;
+}
+.Today>h1{
+    font-size: 45px;
+}
+.weather-forecast{
+    padding: 30px;
+    width: 35%;
+    background-color: #c9cac9;
+    
+}
+.today-weather
+{
+    margin: 25px 0;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 100%;
+    padding: 15px 25px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px 2px #9faaa0;
+    border: none;
+    background: #ededed;
+}
+.details-weather{
+    width: 50%;
+    border-left: 1px solid grey;
+    padding: 0 30px;
+}
+.basic-weather > h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.condition{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.condition > img{
+    margin-left: 25px;
+    height: 40px;
+}
+
+.five-day{
+    display: flex;
+}
+.days{    
+    margin: 5px;
+    box-shadow: 0px 0px 2px 2px #9faaa0;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #ededed;
+}
+.current-location{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.fas{
+    font-size: 35px;
+    color: rgb(255, 24, 24);
+    margin-right: 15px;
+}
